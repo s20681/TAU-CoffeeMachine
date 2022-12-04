@@ -87,13 +87,13 @@ public class CoffeeMakerMockTests {
     }
 
     @Test
-    public void testMakeCoffee3() {
+    public void testMakeCoffee2() {
         assertEquals(65, coffeeMaker.makeCoffee(1, 65));
     }
 
     @Test
-    public void testMakeCoffee4() {
-        assertEquals(65, coffeeMaker.makeCoffee(3, 65));
+    public void testMakeCoffee3() {
+        assertEquals(35, coffeeMaker.makeCoffee(2, 100));
     }
 
     @Test
@@ -259,13 +259,14 @@ public class CoffeeMakerMockTests {
     }
 
     @Test
-    public void testCheckInventory() {
-        coffeeMaker.makeCoffee(0, 50);
-        coffeeMaker.makeCoffee(0, 50);
-        coffeeMaker.makeCoffee(0, 50);
-        coffeeMaker.makeCoffee(0, 50);
-        coffeeMaker.makeCoffee(0, 50);
-        assertEquals(50, coffeeMaker.makeCoffee(0, 50));
+    public void testCheckChange1() {
+        assertEquals(50, coffeeMaker.makeCoffee(0, 100));
+
+    }
+
+    @Test
+    public void testCheckChange2() {
+        assertEquals(25, coffeeMaker.makeCoffee(0, 75));
 
     }
 
