@@ -1,4 +1,7 @@
 # TAU-CoffeeMachine
+Surefire test report file lies in [/target/site folder of this repository](https://github.com/s20681/TAU-CoffeeMachine/blob/master/target/site/surefire-report.html) but it probably looks a little better with html [preview](https://htmlpreview.github.io/?https://github.com/s20681/TAU-CoffeeMachine/blob/master/target/site/surefire-report.html)
+
+
 example build in Github Actions:
 
 
